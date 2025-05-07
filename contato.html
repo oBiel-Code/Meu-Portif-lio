@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Gabriel Carvalho Simões da Silva</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Partículas de Fundo -->
+    <div id="particles-js"></div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+            <span style="--i:4;"></span>
+            <span style="--i:5;"></span>
+            <span style="--i:6;"></span>
+            <span style="--i:7;"></span>
+            <span style="--i:8;"></span>
+            <span style="--i:9;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+        </div>
+    </div>
+
+    <!-- Header e Navegação -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><span class="highlight">GS</span></a>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="habilidades.html">Habilidades</a></li>
+                        <li><a href="formacao.html">Formação</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="contato.html" class="active">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-btn">
+                    <div class="menu-btn__burger"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner da Página -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Entre em <span class="highlight">Contato</span></h1>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="contact-section">
+        <!-- 3D Geometric Shapes -->
+        <div class="geometric-shape shape-1">
+            <div class="cube animate-cube-spin">
+                <div class="cube-face"></div>
+                <div class="cube-face"></div>
+                <div class="cube-face"></div>
+                <div class="cube-face"></div>
+                <div class="cube-face"></div>
+                <div class="cube-face"></div>
+            </div>
+        </div>
+        <div class="geometric-shape shape-2">
+            <div class="sphere animate-sphere-pulse"></div>
+        </div>
+        
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Vamos Conversar</h2>
+                    <p>
+                        Estou interessado em oportunidades de estágio, projetos freelance ou posições em tempo integral. 
+                        Se você tem uma pergunta, proposta ou apenas quer dizer olá, não hesite em entrar em contato comigo.
+                    </p>
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email</h3>
+                            <p>gabrielpenguin11@gmail.com</p>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h3>Telefone</h3>
+                            <p>+55 (11) 99217-7929</p>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Localização</h3>
+                            <p>São Paulo - Mairiporã, Brasil</p>
+                        </div>
+                    </div>
+                    <h3 class="social-title">Me encontre nas redes sociais</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <h2 class="form-title">Envie uma mensagem</h2>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nome</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Seu nome" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Seu email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Assunto</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-tag"></i>
+                                <input type="text" id="subject" name="subject" class="form-control" placeholder="Assunto da mensagem" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <div class="input-wrapper textarea-wrapper">
+                                <i class="fas fa-comment-alt"></i>
+                                <textarea id="message" name="message" class="form-control" placeholder="Sua mensagem" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="form-submit">
+                            <span>Enviar Mensagem</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Mapa -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header">
+                <h4 class="subtitle">Localização</h4>
+                <h2 class="title">Onde me <span class="highlight">Encontrar</span></h2>
+                <div class="separator"></div>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.0488551516!2d-46.92498792526903!3d-23.681434438777253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1680000000000!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção FAQ -->
+    <section class="faq-section">
+        <!-- 3D Geometric Shapes -->
+        <div class="geometric-shape shape-3">
+            <div class="pyramid animate-pyramid-spin">
+                <div class="pyramid-face"></div>
+                <div class="pyramid-face"></div>
+                <div class="pyramid-face"></div>
+                <div class="pyramid-face"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header">
+                <h4 class="subtitle">Perguntas Frequentes</h4>
+                <h2 class="title">FAQ<span class="highlight">s</span></h2>
+                <div class="separator"></div>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quais serviços você oferece?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Ofereço serviços de desenvolvimento web front-end, incluindo criação de sites responsivos, 
+                            landing pages, e-commerce, aplicações web interativas, e design UI/UX. Trabalho com HTML, CSS, 
+                            JavaScript e frameworks modernos como React.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como funciona seu processo de trabalho?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Meu processo de trabalho inclui: 1) Descoberta - entendimento do problema e requisitos; 
+                            2) Planejamento - criação de wireframes e protótipos; 3) Desenvolvimento - codificação e 
+                            implementação; 4) Testes e ajustes; 5) Lançamento e suporte. Mantenho comunicação constante 
+                            durante todo o processo.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Qual é o prazo médio para desenvolvimento de um projeto?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            O prazo varia de acordo com a complexidade do projeto. Um site simples pode levar de 1 a 2 semanas, 
+                            enquanto projetos mais complexos como e-commerce ou aplicações web podem levar de 4 a 8 semanas. 
+                            Sempre discutimos prazos específicos durante a fase de planejamento.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Você oferece manutenção após a entrega do projeto?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Sim, ofereço serviços de manutenção e suporte após a conclusão do projeto. Isso pode incluir 
+                            atualizações de conteúdo, correções de bugs, melhorias de desempenho e implementação de novos 
+                            recursos. Podemos discutir planos de manutenção contínua ou sob demanda.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como você lida com projetos de diferentes fusos horários?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>
+                            Tenho experiência em trabalhar com clientes de diferentes fusos horários. Adapto minha 
+                            disponibilidade para reuniões e mantenho comunicação assíncrona eficiente através de e-mail 
+                            e ferramentas de gerenciamento de projetos. Sempre garanto respostas em até 24 horas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html"><span class="highlight">GS</span></a>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Início</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="habilidades.html">Habilidades</a>
+                    <a href="formacao.html">Formação</a>
+                    <a href="projetos.html">Projetos</a>
+                    <a href="contato.html">Contato</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Gabriel Carvalho Simões da Silva. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
